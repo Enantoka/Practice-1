@@ -129,7 +129,8 @@ header nav a {
     padding: 3em 0;
 }
 
-.banner > div {
+.banner > h1 {
+    font-weight: 400;
     font-size: 3em;
     margin: 0.5em;
 }
@@ -182,8 +183,10 @@ header nav a {
     flex-basis: 75%;
 }
 
-.content-item-info h4 {
+.content-item-info div {
     font-size: 1.35em;
+    font-weight: bold;
+    margin: 1.33em 0;
 }
 
 .content-item-info p {
@@ -232,9 +235,11 @@ footer {
     text-decoration: underline;
 }
 
-.footer-column h4 {
+.footer-column div {
     font-size: 1.25em;
+    font-weight: bold;
     line-height: 0.5;
+    margin: 1.33em 0;
 }
 
 #break {
@@ -251,8 +256,12 @@ footer .abstract-logo {
     position: absolute;
     bottom: 0;
     right: 0;
+}
 
-    font-size: 1.1em;
+#copyright div {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5;
     margin: 0;
 }
 
@@ -265,6 +274,8 @@ footer .abstract-logo {
     padding: 10px 25px;
     bottom: 20px;
     right: 15px;
+    font-size: 1em;
+    font-weight: bold;
     text-align: center;
 }
 
